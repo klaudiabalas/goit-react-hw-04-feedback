@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-04-feedback/static/css/main.cfd00ddf.css",
+    "main.js": "/goit-react-hw-04-feedback/static/js/main.be35ebc8.js",
+    "index.html": "/goit-react-hw-04-feedback/index.html",
+    "main.cfd00ddf.css.map": "/goit-react-hw-04-feedback/static/css/main.cfd00ddf.css.map",
+    "main.be35ebc8.js.map": "/goit-react-hw-04-feedback/static/js/main.be35ebc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfd00ddf.css",
+    "static/js/main.be35ebc8.js"
+  ]
+}
