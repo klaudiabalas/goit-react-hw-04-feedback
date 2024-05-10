@@ -3,12 +3,12 @@ import css from './Feedback.module.css';
 
 export const Feedback = ({ options, onLeaveFeedback }) => (
   <div className={css.feedback_container}>
-    {Object.keys(options).map(option => (
+    {options.map(option => (
       <button
         key={option}
         type="button"
         name={option}
-        onClick={onLeaveFeedback}
+        onClick={() => onLeaveFeedback(option)}
         className={css.feedback_button}
       >
         {option}
@@ -18,6 +18,6 @@ export const Feedback = ({ options, onLeaveFeedback }) => (
 );
 
 Feedback.propTypes = {
-  options: PropTypes.object.isRequired,
+  options: PropTypes.array.isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };
